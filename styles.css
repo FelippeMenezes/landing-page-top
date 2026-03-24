@@ -1,6 +1,41 @@
 body {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+}
+
+.header-title {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.header-links {
+    color: #dfdee4;
+    font-size: 18px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: #dfdee4;
+    text-decoration: none;
 }
 
 .header, .footer {
