@@ -87,6 +87,38 @@ img {
 
 .second-content {
     color: rgb(31,41,55);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 900;
+    margin: 32px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+    width: 900px;
+    margin-bottom: 64px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+}
+
+.rounded-square {
+    height: 150px;
+    width: 150px;
+    border: 5px solid #2674f6;
+    border-radius: 10px;
 }
 
 .third-content {
