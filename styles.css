@@ -33,7 +33,7 @@ a {
     text-decoration: none;
 }
 
-a:visited {
+a:link, a:visited {
     color: #dfdee4;
     text-decoration: none;
 }
