@@ -8,3 +8,21 @@ body {
     color: white;
 }
 
+.first-content {
+    background-color: rgb(31,41,55);
+    color: white;
+}
+
+.second-content {
+    color: rgb(31,41,55);
+}
+
+.third-content {
+    color: rgb(31,41,55);
+    background-color: #e5e7eb;
+}
+
+.fourth-content {
+    color: white;
+    background-color: #2674f6;
+}
