@@ -127,7 +127,7 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column
+    flex-direction: column;
 }
 
 .third-content .box {
@@ -148,6 +148,37 @@ h2 {
 .fourth-content {
     color: white;
     background-color: #2674f6;
+    padding: 64px;
+    margin: 128px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content-four {
+    display: flex;
+    flex-direction: column;
+}
+
+.content-four h3 {
+    margin: 0;
+}
+
+.content-four p {
+    margin: 0;
+}
+
+.fourth-content .button {
+    border: 2px solid white;
+    background-color: #2674f6;
+    color:white;
+    border-radius: 8px;
+    margin-top: 8px;
+    padding: 8px;
+    text-align: center;
+    font-weight: bold;
+    width: 128px;
 }
 
 .footer {
