@@ -65,13 +65,4 @@ The landing page is composed of:
 - HTML5
 - CSS3 (Flexbox)
 
----
 
-## 📁 File Structure
-
-landing-page-top/
-│
-├── index.html
-├── style.css
-└── assets/
-    └── images/
